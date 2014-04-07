@@ -54,7 +54,9 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
-    <Content Include="web.config" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -27,6 +27,7 @@ namespace Mygod.Skylark.TestServer
         protected void Page_Load(object sender, EventArgs e)
         {
             CurrentDrive = new DriveInfo(Server.MapPath("/")[0].ToString(CultureInfo.InvariantCulture));
+            Response.ContentType = "text/javascript";
         }
     }
 }
